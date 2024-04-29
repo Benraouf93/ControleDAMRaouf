@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControleDAMRaouf.Bravo"
+             Title="Bravo">
+
+    <Frame BackgroundColor="FloralWhite" CornerRadius="10" IsClippedToBounds="True" Padding="4">
+        <StackLayout Orientation="Vertical" HorizontalOptions="Center" >
+            <StackLayout Margin="0,0,0,200">
+                <Label Text="Page Bravo" FontSize="40" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center"/>
+            </StackLayout>
+            <Label Text="Nombre de connexions réussies :" TextColor="black" HorizontalOptions="Center" />
+            <Label x:Name="nbConnexionsLabel"  TextColor="Red" HorizontalOptions="Center" FontSize="20"/>
+        </StackLayout>
+       
+    </Frame>
+</ContentPage>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControleDAMRaouf.Hello"
+             Title="Hello">
+    
+    <Frame BackgroundColor="FloralWhite" CornerRadius="10" IsClippedToBounds="True" Padding="4">
+        <StackLayout Spacing="170">
+            <StackLayout>
+                <Label Text="Page Hello" FontSize="40" TextColor="Black" VerticalOptions="Center" HorizontalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Vertical" VerticalOptions="Center" >
+
+                <Label Text="Entrez votre Mot de Passe :" TextColor="DarkBlue" HorizontalOptions="Center" Margin="2"/>
+                <Entry x:Name="passEntry" IsPassword="True" BackgroundColor="LightBlue" TextColor="Black" WidthRequest="200" Margin="0,0,0,30"/>
+                <Button Text="Valider" Clicked="Button_Clicked" WidthRequest="100" BackgroundColor="ForestGreen" TextColor="FloralWhite" />
+            </StackLayout>
+        </StackLayout>
+       
+    </Frame>
+
+</ContentPage>
